@@ -1,0 +1,28 @@
+body{
+  background-color: #ffffff;	
+}
+.header{
+  background-color: #336699;
+}
+/*.content{
+	background-color: #99ccff;
+}
+.content>div{
+	background-color: #99ccff;
+}*/
+.banner{
+	color: #333333;
+  background-color: #99ccff;
+}
+.news{
+	color: #333333;
+  background-color: #99ccff;
+}
+.hot{
+	color: #333333;
+  background-color: #99ccff;
+}
+.arttitle:hover{
+	color: #ffffcc;
+  background-color: #336699;	
+}

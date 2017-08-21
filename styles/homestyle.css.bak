@@ -1,0 +1,133 @@
+.header{
+	height: 100px;
+	margin: 2% 20%;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.reg{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.reg div{
+	display: inline-block;
+	vertical-align: top;
+}
+.content{
+  margin: auto 20%;
+  padding: 0px;
+  position: relative;
+}
+.content>div{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#leftContent{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+}
+#rightContent{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 50%;
+}
+.banner{
+	margin-right: 5px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+.list{
+	float: right;
+	padding: 5px;
+}
+.news{
+	margin-right: 5px;
+	height: 400px;
+}
+.hot{
+	margin-left: 5px;
+	height: 600px;
+}
+.maintitle{
+  padding: 5px;
+}
+.art{
+	position: relative;
+	height: 50px;
+	width: 100%
+	margin: 10px;
+	padding: 5px;
+	line-height: 40px;
+}
+.arttitle{
+	padding: 5px;
+}
+.artstates{
+	position: absolute;
+  top: 5px;
+	right: 5px;	
+	height: 40px;
+}
+.artstates>div{
+	float: right;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+body{
+  background-color: #ffffff;	
+}
+.header{
+  background-color: #336699;
+}
+.banner{
+	color: #333333;
+  background-color: #99ccff;
+}
+.news{
+	color: #333333;
+  background-color: #99ccff;
+}
+.hot{
+	color: #333333;
+  background-color: #99ccff;
+}
+.arttitle:hover{
+	color: #ffffcc;
+  background-color: #336699;	
+}
+
+
+
+
+
+
+
+.maintitle{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.list{
+	font-weight: normal;
+	font-size: 0.8em;	
+}
+.artstates{
+	font-size: 0.7em;	
+}

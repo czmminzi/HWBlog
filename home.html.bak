@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Welcome to HWBlog!</title>
+		<link rel="stylesheet" href="styles/homestyle.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="scripts/global.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"><img src="images/logo.png"/></div>
+			<div class="reg">
+				<div><a href="login.html">登录</a></div>
+				<div><a href="register.html">注册</a></div>
+			</div>
+		</div>
+		<div class="content">
+			<div id="leftContent">
+				<div class="banner">这是广告</div>
+				<div class="news">
+					<div class="maintitle">
+						最新文章
+						<div class="list"><a href="list.html">全部文章</a></div>
+					</div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>				  				  				  				  
+				</div>
+			</div>
+			<div id="rightContent">
+				<div class="hot">
+					<div class="maintitle">热门文章</div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>
+					<div class="art">
+					  <div class="arttitle">标题</div>
+					  <div class="artstates">
+						  <div>点击数</div>
+						  <div>评论数</div>
+					  </div>
+				  </div>					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
