@@ -1,54 +1,62 @@
 <!doctype html>
 <html>
-	<head>
-		<title>register</title>
-		<link rel="stylesheet" href="styles/registerstyle.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="scripts/form.js"></script>
-	</head>
-	<body>
-		<div class="header">
-			<div class="logo"><img src="images/logo.png"/></div>
-		</div>
-		<div class="content">
-			<form method="post" onsubmit="check()">
-				<table>
-					<tr>
-						<td>ÓÃ»§Ãû£º</td>
-						<td><input type="text" name="username"/></td>
-					</tr>
-					<tr>
-						<td>ÃÜÂë£º</td>
-						<td><input type="password" name="password"/></td>
-					</tr>
-					<tr>
-						<td>È·ÈÏÃÜÂë£º</td>
-						<td><input type="password" name="repassword"/></td>
-					</tr>
-					<tr>
-						<td>êÇ³Æ£º</td>
-						<td><input type="text" name="nickname"/></td>
-					</tr>
-					<tr>
-						<td>ÃÜ±£ÎÊÌâ£º</td>
-						<td>
-							<select name="pswquestion">
-								<option selected>ÇëÑ¡Ôñ</option>
-	            	<option value="1">³èÎïÃû×Ö</option>
-	            	<option value="2">¸¸Ç×ÉúÈÕ</option>
-	            	<option value="3">×îÏ²»¶µÄÊ³Îï</option>
-	            	<option value="4">Ð¡Ê±ºò¾Ó×¡µÄ½ÖµÀ</option>
+
+<head>
+    <meta charset="utf-8">
+    <title>register</title>
+    <!--[if lt IE 9]>
+        <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/registerstyle.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles/all.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">HWBlog</h1>
+    </header>
+    <div class="content green">
+        <form method="post" onsubmit="check()">
+            <table>
+                <tr>
+                    <td>ç”¨æˆ·å</td>
+                    <td><input type="text" name="username" /></td>
+                </tr>
+                <tr>
+                    <td>å¯†ç </td>
+                    <td><input type="password" name="password" /></td>
+                </tr>
+                <tr>
+                    <td>ç¡®è®¤å¯†ç </td>
+                    <td><input type="password" name="repassword" /></td>
+                </tr>
+                <tr>
+                    <td>æ˜µç§°</td>
+                    <td><input type="text" name="nickname" /></td>
+                </tr>
+                <tr>
+                    <td>å¯†ä¿é—®é¢˜</td>
+                    <td>
+                        <select name="pswquestion">
+								<option selected>å°ç‹—çš„åå­—</option>
+	            	<option value="1">çˆ¶äº²çš„ç”Ÿæ—¥</option>
+	            	<option value="2">æœ€çˆ±çš„é£Ÿç‰©</option>
+	            	<option value="3">å°å­¦å­¦æ ¡</option>
+	            	<option value="4">æ¥¼ä¸‹è¡—é“</option>
 	            </select>
-	          </td>
-					</tr>
-					<tr>
-						<td>ÃÜ±£´ð°¸£º</td>
-						<td><input type="text" name="pswanswer"/></td>
-					</tr>
-					<tr>
-						<td class="submit" colspan="2"><input type="submit" value="Á¢¼´×¢²á"/></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-	</body>
+                    </td>
+                </tr>
+                <tr>
+                    <td>å¯†ä¿ç­”æ¡ˆ</td>
+                    <td><input type="text" name="pswanswer" /></td>
+                </tr>
+                <tr>
+                    <td class="submit" colspan="2"><input type="submit" value="æ³¨å†Œ" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
 </html>

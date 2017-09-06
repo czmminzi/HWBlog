@@ -1,66 +1,63 @@
-.header{
-	height: 100px;
-	margin: 2% 20%;
-	position: relative;
-}
-.logo{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	margin: 0px;
-	padding: 0px;
-}
-.reg{
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-.reg div{
-	display: inline-block;
-	vertical-align: top;
-}
-.content{
-  margin: auto 20%;
-  padding: 0px;
-  position: relative;
-}
-.content>div{
-	margin: 0px;
-	padding: 0px;
-}
-.maintitle{
-  padding: 5px;
-}
-.author{
-  text-align: right;	
-  padding: 5px;
-}
-.arttext{
-	padding: 5px;
+/*
+.header {
+    height: 100px;
+    margin: 2% 20%;
+    position: relative;
 }
 
-
-
-
-body{
-  background-color: #ffffff;	
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-.header{
-  background-color: #336699;
+*/
+
+.reg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
-.content{
-	color: #333333;
-	background-color: #99ccff;
+
+.reg div {
+    display: inline-block;
+    vertical-align: top;
 }
 
-
-
-
-
-.maintitle{
-	font-weight: bold;
-	font-size: 1.2em;
+.content {
+    margin: auto 20%;
+    padding: 0px;
+    position: relative;
 }
-.author{
-  font-size: 0.9em;
+
+.content>div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.maintitle {
+    padding: 5px;
+}
+
+.author {
+    text-align: right;
+    padding: 5px;
+}
+
+.arttext {
+    padding: 5px;
+}
+
+.content {
+    color: #333333;
+}
+
+.maintitle {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.author {
+    font-size: 0.9em;
 }

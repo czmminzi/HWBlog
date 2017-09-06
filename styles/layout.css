@@ -1,3 +1,4 @@
+/*
 .header{
 	height: 100px;
 	margin: 2% 20%;
@@ -10,159 +11,170 @@
 	margin: 0px;
 	padding: 0px;
 }
-.reg{
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-.reg div{
-	display: inline-block;
-	vertical-align: top;
-}
-.content{
-  margin: auto 20%;
-  padding: 0px;
-  position: relative;
-}
-.content>div{
-	//display: inline-block;
-	//vertical-align: top;
-	margin: 0px;
-	padding: 0px;
+*/
+
+.reg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
-
-
-#leftContent{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 50%;
-}
-#rightContent{
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	width: 50%;
+.reg div {
+    display: inline-block;
+    vertical-align: top;
 }
 
-
-
-.arthead{
-	position: relative;
+.content {
+    margin: auto 20%;
+    padding: 0px;
+    position: relative;
 }
 
-
-
-
-
-#sidebar{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 30%;
-	margin: 0px;
-	padding: 0px;
-}
-#sidebar>div{
-	height: 200px;
-	margin: 0px;
-	padding: 10px;
-}
-.column{
-	position: absolute;
-	top: 0px;
-	left: 30%;	
-	width: 70%;	
-	margin: 0px;
-	padding:0px;
-}
-.art{
-	position: relative;
-	height: 50px;
-	width: 100%
-	margin: 10px;
-	padding: 5px;
-	line-height: 50px;
-}
-.artstates{
-	position: absolute;
-  top: 0px;
-	right: 5px;	
-	height: 50px;
-}
-.artstates>div{
-	float: right;
-}
-.album{
-	display: none;
+.content>div {
+    //display: inline-block;
+    //vertical-align: top;
+    margin: 0px;
+    padding: 0px;
 }
 
+#leftContent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+}
 
+#rightContent {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 50%;
+}
 
+.arthead {
+    position: relative;
+}
 
+#sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+}
 
+#sidebar>div {
+    height: 200px;
+    margin: 0px;
+    padding: 10px;
+}
 
-.main{
-	width: 100%;
+.column {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
 }
-.myinfor{
-	position: relative;
-	height: 200px;
+
+.art {
+    position: relative;
+    height: 50px;
+    width: 100% margin: 10px;
+    padding: 5px;
+    line-height: 50px;
 }
-.myinfor>div{
-	display: inline-block;
-	vertical-align: top;
-	margin: 0px;
-	padding: 0px;
+
+.artstates {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    height: 50px;
 }
-.myinfor .face{
-	width: 30%;
+
+.artstates>div {
+    float: right;
 }
-#infroedit{
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
+
+.album {
+    display: none;
 }
-.nav{
-	height: 50px;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
+
+.main {
+    width: 100%;
 }
-.nav>div{
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	position: absolute;	
+
+.myinfor {
+    position: relative;
+    height: 200px;
 }
-.nav>.articlenav{
-	width: 33%;
-	top: 0px;
-	left: 0px;
+
+.myinfor>div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
 }
-.nav>.albumnav{
-	width: 34%;
-	top: 0px;
-	left: 34%;	
+
+.myinfor .face {
+    width: 30%;
 }
-.nav>.reviewnav{
-	width: 33%;
-	top: 0px;
-	left: 67%;	
+
+#infroedit {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
-.mycolumn{
-	margin: 0px;
-	padding:0px;
+
+.nav {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
 }
-.write{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
+
+.nav>div {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: absolute;
 }
-.mycolumn .album{
-	display: none;
+
+.nav>.articlenav {
+    width: 33%;
+    top: 0px;
+    left: 0px;
 }
-.mycolumn .review{
-	display: none;
+
+.nav>.albumnav {
+    width: 34%;
+    top: 0px;
+    left: 34%;
+}
+
+.nav>.reviewnav {
+    width: 33%;
+    top: 0px;
+    left: 67%;
+}
+
+.mycolumn {
+    margin: 0px;
+    padding: 0px;
+}
+
+.write {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.mycolumn .album {
+    display: none;
+}
+
+.mycolumn .review {
+    display: none;
 }

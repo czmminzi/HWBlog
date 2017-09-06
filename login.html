@@ -1,43 +1,51 @@
 <!doctype html>
 <html>
-	<head>
-		<title>Login</title>
-		<link rel="stylesheet" href="styles/loginstyle.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="scripts/form.js"></script>
-	</head>
-	<body>
-		<div class="header">
-			<div class="logo"><img src="images/logo.png"/></div>
-		</div>
-		<div class="content">		
-			<form method="post" onsubmit="check()">
-				<table>
-					<tr>
-						<td>”√ªß√˚:</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><input type="text" name="username"/></td>
-						<td><a href="register.html">Õ¸º«√‹¬Î£ø</a></td>
-					</tr>			
-					<tr>
-						<td>√‹&nbsp;&nbsp;&nbsp;¬Î:</td>
-						<td></td>
-					</tr>	
-					<tr>
-						<td><input type="password" name="password"/></td>
-						<td><a href="register.html">¡¢º¥◊¢≤·£°</a></td>
-					</tr>	
-					<tr>
-						<td class="remember"><input type="checkbox" name="remember"/>º«◊°√‹¬Î<br/></td>
-						<td></td>
-					</tr>	
-					<tr>
-						<td class="submit" colspan="3"><input type="submit" name="login" value="µ«¬º" /></td>
-					</tr>																							
-				</table>			  
-			 </form>			
 
-		</div>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <!--[if lt IE 9]>
+        <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/loginstyle.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles/all.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">HWBlog</h1>
+    </header>
+    <div class="content green">
+        <form method="post" onsubmit="check()">
+            <table>
+                <tr>
+                    <td>Áî®Êà∑Âêç:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="username" /></td>
+                    <td><a href="register.html">Á´ãÂç≥Ê≥®ÂÜåÔºÅ</a></td>
+                </tr>
+                <tr>
+                    <td>ÂØÜ&nbsp;&nbsp;&nbsp;Á†Å:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" /></td>
+                    <td><a href="register.html">ÂøòËÆ∞ÂØÜÁ†ÅÔºü</a></td>
+                </tr>
+                <tr>
+                    <td class="remember"><input type="checkbox" name="remember" />ËÆ∞‰ΩèÂØÜÁ†Å<br/></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="submit" colspan="3"><input type="submit" name="login" value="ÁôªÂΩï" /></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+
 </html>
