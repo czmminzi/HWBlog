@@ -5,7 +5,7 @@ function articleToShow() {
     var art = document.getElementsByClassName("arttitle");
     for (var i = 0; i < art.length; i++) {
         art[i].onclick = function() {
-            self.location = "show.html";
+            self.location = "show.html?title=" + this.innerText;
         }
     }
 }
@@ -45,6 +45,9 @@ function changeContent() {
         }
     }
 }
+
+
+
 
 
 

@@ -1,3 +1,9 @@
+a {
+    text-decoration: none;
+    color: #fae596;
+    text-shadow: 1px 1px 3px #fae596
+}
+
 body {
     background-image: url(../images/bg.jpg);
     background-attachment: fixed;
@@ -19,7 +25,7 @@ header h1 {
 
 header h1 {
     color: #fae596;
-    text-shadow: 5px 2px 6px #fae596;
+    text-shadow: 3px 3px 5px #fae596;
 }
 
 .green {
